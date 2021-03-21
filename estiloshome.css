@@ -1,0 +1,292 @@
+/*----RESET----*/
+
+body, ul, li, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*----INICIO DO CABEÇALHO----*/
+.header {
+    height: 100px;
+    background-color: rgba(148,35,136,0.7);
+    margin: auto auto;
+}
+
+.headerimg {
+    padding: 20px 0;
+    margin: auto;
+}
+
+/*----INICIO CAPA----*/
+.capa {
+    background: url(../img/CapapaginaPrincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.tituloCapa {
+    padding: 250px 0;
+    text-align: center;
+    font-family: 'Chango', cursive;
+    color: rgb(148,35,136);
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.tituloCapa h1 {font-size: 4em}
+
+@media (max-width: 739px) {
+    .tituloCapa {
+    padding: 100px 0;
+    font-size: 0.6em;
+    }
+}
+
+
+/*----INICIO TITULO----*/
+.titulo h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding: 30px 0;
+    color: #000;
+    text-shadow: 1px 1px rgb(148,35,136);
+}
+
+.titulobg {
+    background-color: rgba(148,35,136,0.7);
+}
+
+@media (max-width: 739px) {
+    .titulo h1 {
+    font-size: 2em;
+    }
+}
+
+/*----INICIO ESCOPO PRODUTOS----*/
+.boxprodutos {
+    box-shadow: 0 0 10px #666;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.produtosimg img{
+    object-position: top center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.produtostexto h1 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    color: #000;
+}
+
+.produtostexto p {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #000;
+}
+
+.produtosbtn a {
+    display: block;
+    text-align: center; 
+    background-color: forestgreen;
+    color:white;
+    padding:3%;
+    text-decoration: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.produtosbtn a:hover {
+    text-decoration: none;
+    background-color: darkgreen;
+    color:white;
+}
+/*----INICIO QUEM SOMOS----*/
+
+.quemsomos {background-color: rgba(148,35,136,0.7);}
+
+.quemsomos div div img {
+    max-width: 300px;
+    padding: 32.5px 0;
+}
+
+.quemsomos div h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    text-align: right;
+    color: #000;
+}
+
+.quemsomos div p {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: right;
+    color: #000;
+}
+
+@media (max-width: 739px) {
+    .quemsomos div div img {
+    max-width: 150px;
+    margin: auto;
+}
+
+.quemsomos div h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.quemsomos div p {
+    text-align: center;
+    font-size: 1em;
+}
+}
+
+/*----INICIO PORTIFOLIO----*/
+.portifolio {margin: 20px 0;}
+
+.portifolio ul {
+    margin: 15px 160px;
+    
+}
+
+.portifolio ul li {
+    text-align: center;
+    list-style:none;
+    display: inline-block;
+}
+
+.portifolio ul li a {
+    display: inline-block;
+    text-align: center; 
+    border: 4px solid rgb(148,35,136);
+    color: rgb(148,35,136);
+    padding:10px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.portifolio ul li a.active {
+    background-color:rgb(148,35,136);
+    color: white;
+}
+
+.portifolio ul li a:hover {
+    background-color: rgba(148,35,136,0.7);
+
+}
+
+.portifolio img {}
+
+.portifolio h3 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.item {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    transform: translate3d(-50px,0,0)
+}
+
+.item.active{
+    opacity: 1;
+    visibility: visible;
+    transition: 2s;
+    height: auto;
+    transform: translate3d(0,0,0)
+}
+
+@media (max-width: 739px) {
+    .portifolio ul {
+        margin: auto;
+    }
+    .portifolio ul li {
+    margin: 0 35px 5px;
+        
+    }
+}
+
+/*----INICIO ESCOPO CONTATOS----*/
+.escopocontatos {
+    background-color: rgba(148,35,136,0.7);
+    padding-bottom: 20px;
+}
+
+.contato img {
+    margin: 0px auto 20px;
+}
+
+.contato p {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+@media (max-width: 739px) {
+    
+}
+
+/*----INICIO RODAPE----*/
+footer {
+    background-color: rgb(148,35,136);
+}
+
+.dados p {
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+.redes img {
+    width: 40px;
+    display: inline-block;
+    float: right;
+    margin: 45px 0;
+}
+
+.copy p{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+@media (max-width: 739px) {
+    .dados p {
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    }
+
+    .redes img {
+    width: 40px;
+    display: inline-block;
+    float: none;
+    margin: 20px 12px;
+    text-align: center;
+    }
+
+    .copy p{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    }
+    
+}
+
+
+
+
+
+
+
+
