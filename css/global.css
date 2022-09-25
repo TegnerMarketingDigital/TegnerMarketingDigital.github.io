@@ -1,0 +1,181 @@
+@font-face {
+  font-family: opensans-light;
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: opensans-medium;
+  src: url(../fonts/OpenSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: opensans-semibold;
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: opensans-extrabold;
+  src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: oswald-light;
+  src: url(../fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+  font-family: oswald-medium;
+  src: url(../fonts/Oswald-Medium.ttf);
+}
+
+@font-face {
+  font-family: oswald-semibold;
+  src: url(../fonts/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: oswald-bold;
+  src: url(../fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+  font-family: muli-light;
+  src: url(../fonts/Muli-Light.ttf);
+}
+
+@font-face {
+  font-family: muli-medium;
+  src: url(../fonts/Muli-Regular.ttf);
+}
+
+@font-face {
+  font-family: montserrat-light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: montserrat-medium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: caveat-medium;
+  src: url(../fonts/Caveat-Medium.ttf);
+}
+
+:root {
+  /* CORES PADRÕES DO SITE */
+  --cor-verde-1: rgb(80, 177, 72);
+  --cor-verde-2: rgb(68, 148, 61);
+  --cor-verde-3: rgb(98, 205, 91);
+  --cor-verde-4: rgb(225, 255, 225);
+  --preto: rgb(0, 0, 0);
+  --branco: rgb(255, 255, 255);
+  --cor-cinza-1: rgb(245, 245, 245);
+  --cor-cinza-2: rgb(210, 210, 210);
+  --cor-cinza-3: rgb(190, 190, 190);
+  --cor-cinza-4: rgb(150, 150, 150);
+  --cor-cinza-5: rgb(55, 55, 55);
+  --cor-cinza-6: rgb(32, 32, 32);
+  --sombra: 3px 3px 10px rgba(0, 0, 0, 0.3);
+
+  /* FONTES PADRÕES DO SITE */
+  /* OPEN SANS */
+  --font-1-light: opensans-light;
+  --font-1-medium: opensans-medium;
+  --font-1-semibold: opensans-semibold;
+  --font-1-extrabold: opensans-extrabold;
+
+  /* OSWALD */
+  --font-2-light: oswald-light;
+  --font-2-medium: oswald-medium;
+  --font-2-semibold: oswald-semibold;
+  --font-2-bold: oswald-bold;
+
+  /* MULI */
+  --font-3-light: muli-light;
+  --font-3-medium: muli-medium;
+
+  /* MONTSERRAT */
+  --font-4-light: montserrat-light;
+  --font-4-medium: montserrat-medium;
+  --font-4-bold: montserrat-bold;
+
+  /* CAVEAT */
+  --font-5-medium: caveat-medium;
+}
+
+* {
+  /* RESET */
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-bg {
+  width: 100%;
+  height: 2000px;
+  background-image: url(../img/home/capa_home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.btn {
+  display: block;
+  max-width: max-content;
+  font-family: var(--font-3-medium);
+  font-size: 0.75rem;
+  font-weight: bold;
+  background-color: var(--cor-verde-2);
+  border: none;
+  color: var(--branco);
+  padding: 16px 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  box-shadow: var(--sombra);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--cor-verde-1);
+}
+
+.titulo-1 {
+  font-family: var(--font-2-medium);
+  color: var(--cor-cinza-2);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-1::after,
+.titulo-1::before {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+  background-color: var(--cor-verde-1);
+  margin-left: 10px;
+  margin-right: 10px;
+}

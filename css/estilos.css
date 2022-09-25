@@ -1,0 +1,14 @@
+@import url(./global.css);
+
+/* CABEÇALHO */
+@import url(./header.css);
+
+/* RODAPE */
+@import url(./footer.css);
+
+/* HOME */
+@import url(./capa-home.css);
+@import url(./linhas-home.css);
+@import url(./diferencial-home.css);
+@import url(./blog-home.css);
+@import url(./dados-home.css);

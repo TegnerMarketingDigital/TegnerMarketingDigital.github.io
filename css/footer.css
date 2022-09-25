@@ -1,0 +1,75 @@
+.footer {
+  background-color: var(--cor-cinza-6);
+  padding: 50px 0;
+}
+
+.footer-info {
+  display: flex;
+  gap: 50px;
+  color: var(--branco);
+}
+
+.footer-info h3 {
+  font-family: var(--font-2-medium);
+  color: var(--cor-verde-1);
+  margin-bottom: 30px;
+}
+
+.footer-info a {
+  color: inherit;
+  font-family: var(--font-4-bold);
+}
+
+.footer-info li + li {
+  margin-top: 10px;
+}
+
+.footer-info p {
+  font-family: var(--font-4-light);
+}
+
+.container-footer {
+  padding: 5px 10px;
+  max-width: 450px;
+}
+
+.footer-copy {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.footer-copy p,
+.footer-copy a {
+  color: var(--cor-cinza-4);
+  font-family: var(--font-5-medium);
+}
+
+.footer-copy a {
+  color: var(--cor-verde-3);
+}
+
+.footer-info-empresa {
+}
+
+.footer-info-empresa img,
+.footer-info-empresa p,
+.footer-info-contato p {
+  margin-bottom: 10px;
+}
+
+.footer-info-contato li + li {
+  margin-top: 10px;
+}
+
+.footer-redes {
+  display: flex;
+}
+
+.footer-info-links {
+}
+
+.footer-info-paginas {
+}
+
+.footer-info-contato {
+}
