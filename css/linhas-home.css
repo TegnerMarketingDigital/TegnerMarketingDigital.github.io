@@ -57,3 +57,48 @@
 .linhas-home > a {
   margin-right: 100px;
 }
+
+@media (max-width: 600px) {
+  .linhas-home {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .linhas-home h2 {
+  }
+
+  .linhas-home ul {
+  }
+
+  .linhas-home-card {
+    max-width: 330px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px 30px;
+    align-items: center;
+  }
+
+  .linhas-home-card img {
+    width: auto;
+    grid-row: span 2;
+  }
+
+  .linhas-home-card h3 {
+    text-align: left;
+  }
+
+  .linhas-home-card > p {
+    text-align: left;
+  }
+
+  .linhas-home > p {
+    display: none;
+  }
+
+  .linhas-home > a {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

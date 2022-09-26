@@ -84,3 +84,9 @@
 
 .diferencial-conteudo-couro {
 }
+
+@media (max-width: 600px) {
+  .diferencial {
+    display: none;
+  }
+}

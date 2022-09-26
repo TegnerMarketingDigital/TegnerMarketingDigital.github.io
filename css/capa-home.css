@@ -50,3 +50,26 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
+/* CONFIGURAÇÕES MOBILE 600PX */
+
+@media (max-width: 600px) {
+  .capa-home {
+    height: 90vh;
+    gap: 50px;
+  }
+
+  .capa-home h1 {
+    font-size: 4rem;
+  }
+
+  .capa-home span {
+  }
+
+  .capa-home p {
+    font-size: 1.8rem;
+  }
+
+  .capa-home .btn {
+  }
+}
