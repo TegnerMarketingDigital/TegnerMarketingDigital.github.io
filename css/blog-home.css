@@ -89,3 +89,65 @@
 #item-8 {
   background-image: url(../img/home-blog/blog-8.jpg);
 }
+
+/* CONFIGURAÇÕES MOBILE 600PX */
+
+@media (max-width: 600px) {
+  .blog-bg {
+  }
+
+  .blog-post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .blog-post-item {
+    min-width: 150px;
+  }
+
+  .blog-post-item-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .blog-post-item-conteudo h3 {
+  }
+
+  .blog-post-item-conteudo a {
+    width: 80%;
+  }
+
+  .blog-bg > a {
+    margin: 0 auto;
+  }
+
+  .blog-post-item:hover .blog-post-item-conteudo {
+  }
+
+  #item-1 {
+  }
+
+  #item-2 {
+  }
+
+  #item-3 {
+  }
+
+  #item-4 {
+  }
+
+  #item-5 {
+  }
+
+  #item-6 {
+  }
+
+  #item-7 {
+  }
+
+  #item-8 {
+  }
+}
