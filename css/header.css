@@ -59,9 +59,9 @@
   display: none;
 }
 
-/* CONFIGURAÇÕES MOBILE 600PX */
+/* CONFIGURAÇÕES MOBILE 900PX */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .header {
     grid-template-columns: 1fr 1fr;
     gap: 0px;

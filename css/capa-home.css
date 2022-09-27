@@ -51,9 +51,9 @@
   }
 }
 
-/* CONFIGURAÇÕES MOBILE 600PX */
+/* CONFIGURAÇÕES MOBILE 900PX */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .capa-home {
     height: 90vh;
     gap: 50px;

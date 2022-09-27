@@ -180,7 +180,9 @@ img {
   margin-right: 10px;
 }
 
-@media (max-width: 600px) {
+/* CONFIGURAÇÕES MOBILE 900PX */
+
+@media (max-width: 900px) {
   .container {
     max-width: 340px;
     display: block;

@@ -90,9 +90,9 @@
   background-image: url(../img/home-blog/blog-8.jpg);
 }
 
-/* CONFIGURAÇÕES MOBILE 600PX */
+/* CONFIGURAÇÕES MOBILE 900PX */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .blog-bg {
   }
 

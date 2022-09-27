@@ -85,7 +85,9 @@
 .diferencial-conteudo-couro {
 }
 
-@media (max-width: 600px) {
+/* CONFIGURAÇÕES MOBILE 900PX */
+
+@media (max-width: 900px) {
   .diferencial {
     display: none;
   }

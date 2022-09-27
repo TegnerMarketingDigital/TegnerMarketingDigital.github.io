@@ -58,7 +58,9 @@
   margin-right: 100px;
 }
 
-@media (max-width: 600px) {
+/* CONFIGURAÇÕES MOBILE 900PX */
+
+@media (max-width: 900px) {
   .linhas-home {
     margin-top: 40px;
     display: grid;
